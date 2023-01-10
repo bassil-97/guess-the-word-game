@@ -1,0 +1,19 @@
+#selected-word__form {
+    border-radius: 4px;
+    max-width: 400px;
+}
+
+#selected-word__form .form-control {
+    display: block;
+    width: 72px;
+    height: 60px;
+    margin-right: 0.5rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    min-width: 0;
+}
+
+#selected-word__form .form-control:last-child {
+    margin-right: 0;
+}

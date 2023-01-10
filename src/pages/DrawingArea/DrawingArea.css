@@ -1,0 +1,39 @@
+.drwaing-area__container {
+    width: 100%;
+    min-height: 100vh;
+    background-color: var(--primary-theme);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.drwaing-area__container .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.canvas-header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.canvas-header h1 {
+    font-family: 'Anton', sans-serif;
+}
+
+.red-class {
+    color: red;
+    animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+    to {
+        transform: scale(1.2);
+    }
+  }

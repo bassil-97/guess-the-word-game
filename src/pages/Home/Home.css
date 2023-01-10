@@ -1,0 +1,11 @@
+.home-page__container {
+    width: 100%;
+    min-height: 100vh;
+    background-color: var(--primary-theme);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Anton', sans-serif;
+}
